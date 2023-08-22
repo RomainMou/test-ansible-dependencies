@@ -1,0 +1,9 @@
+- name: "Test ansible dependencies."
+  hosts: localhost
+  gather_facts: false
+  vars:
+    include_one: false
+    include_two: true
+    include_three: false
+  roles:
+    - containers

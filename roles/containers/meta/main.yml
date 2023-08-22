@@ -1,0 +1,8 @@
+---
+dependencies:
+  - role: containers/one
+    when: include_one
+  - role: containers/two
+    when: include_two
+  - role: containers/three
+    when: include_three
